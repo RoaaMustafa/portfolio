@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+
+main{
+    height: 100%;
+    position: relative;
+    top: 120px;
+}
+.bio{
+    width: 90%;
+   margin-left: 10%;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    min-height: 640px;
+}
+header{
+    height: 120px;
+    position: fixed;
+    width:80%;
+    background-color:darkgrey;
+    top:0;
+    z-index:2;
+
+}
+.ltuc{
+    display: flex;
+}
+.roaaimg{
+    flex: 1;
+    margin-left: 60px;
+}
+.ltucp{
+    flex: 3;
+   
+}
+.ltucp p{
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+}
+
+.grad{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.gradimg{
+    flex: 1;
+    margin-left: 20px;
+    
+}
+.grad img {
+    position: relative;
+    right: 50px;
+}
+.gradp{
+    flex: 3;
+}
+.gradp p {
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    padding-top:30px;
+    margin-left:50px;
+  
+}
+
+
+.hs{
+    display: flex;
+}
+.hsimg{
+    flex: 1;
+}
+.hsp{
+    flex: 3;
+}
+.hsp p{
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    position: relative;
+    top: 150px;
+}
